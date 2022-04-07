@@ -1,0 +1,103 @@
+.create_new  {
+  height: 160px;
+  width: 160px;
+  background-color: #0661a6;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+      float: none;
+      display: block;
+  }
+}
+.fa-house{
+
+padding: 10px 10px;
+}
+.fa-arrow-left{
+  padding: 10px 10px;
+}
+.fa-arrow-right {
+  padding: 10px 10px;
+}
+.fa-floppy-disk{
+  padding: 10px 10px;
+}
+
+
+
+
+.leftnav {
+  width: 100px; /* Set a width if you like */
+}
+
+.leftnav a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.leftnav a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.leftnav a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 50px; /* Set a width if you like */
+  padding-top:20px;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.vertical-menu i{
+  align-items: 25px;
+
+}
+
